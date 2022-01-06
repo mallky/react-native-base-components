@@ -12,9 +12,12 @@ module.exports = {
       },
     ],
     'prettier/prettier': ['error'],
+    'no-unused-expressions': 0,
     'no-use-before-define': [
       'error',
       { functions: true, classes: true, variables: false },
     ],
+    'react/jsx-props-no-spreading': 0,
+    'react/require-default-props': 0,
   },
 };
